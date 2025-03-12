@@ -1,0 +1,8 @@
+{
+"_schemaVersion": "0",
+"GetSubImage": {
+    "inputs": [
+        {image: "Image"},
+    ]
+}
+}
