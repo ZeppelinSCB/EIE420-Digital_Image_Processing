@@ -1,8 +1,9 @@
 clc;
-IMAGE = 'PlumBlossom';
+IMAGE = 'Suletta and Miorine';
 FOLDER = 'work/';
 PATH = append(FOLDER,IMAGE,'.jpg');
 I = imread(PATH);
+
 subplot(2,3,1)
 imshow(I);
 title('Original Image');
@@ -19,7 +20,7 @@ subplot(2,3,4)
 imgEql = hist_eql(I);
 imshow(imgEql);
 title('Equalized Image');
-imwrite(imgEql,append(IMAGE,'-Eql.jpg'));
+imwrite(imgEql,append(FOLDER,IMAGE,'-Eql.jpg'));
 size(imgEql);
 
 subplot(2,3,5)
