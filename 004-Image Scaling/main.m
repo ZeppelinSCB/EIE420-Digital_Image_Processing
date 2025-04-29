@@ -1,9 +1,9 @@
 clc;
-IMAGE = 'Yokosuka.jpg_0.05_BL.png';
+IMAGE = 'Demo.jpg';
 FOLDER = 'work/';
 PATH = append(FOLDER,IMAGE);
 I = imread(PATH);
-SCALE = 6.6
+SCALE = 0.05;
 ISSAVE = 1;
 ROW = 1;
 COL = 3;
